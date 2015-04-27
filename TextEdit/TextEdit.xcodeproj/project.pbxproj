@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4899267219D1CB4E00D378B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4899267119D1CB4E00D378B0 /* Foundation.framework */; };
+		4899267419D1CB4E00D378B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4899267319D1CB4E00D378B0 /* CoreGraphics.framework */; };
+		4899267619D1CB4E00D378B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4899267519D1CB4E00D378B0 /* UIKit.framework */; };
+		4899267C19D1CB4E00D378B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4899267A19D1CB4E00D378B0 /* InfoPlist.strings */; };
+		4899267E19D1CB4E00D378B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4899267D19D1CB4E00D378B0 /* main.m */; };
+		4899268219D1CB4E00D378B0 /* TXTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4899268119D1CB4E00D378B0 /* TXTAppDelegate.m */; };
+		4899268519D1CB4E00D378B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4899268319D1CB4E00D378B0 /* Main.storyboard */; };
+		4899268819D1CB4F00D378B0 /* TXTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4899268719D1CB4F00D378B0 /* TXTMainViewController.m */; };
+		4899268B19D1CB4F00D378B0 /* TXTFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4899268A19D1CB4F00D378B0 /* TXTFlipsideViewController.m */; };
+		4899268D19D1CB4F00D378B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4899268C19D1CB4F00D378B0 /* Images.xcassets */; };
+		4899269419D1CB4F00D378B0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4899269319D1CB4F00D378B0 /* XCTest.framework */; };
+		4899269519D1CB4F00D378B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4899267119D1CB4E00D378B0 /* Foundation.framework */; };
+		4899269619D1CB4F00D378B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4899267519D1CB4E00D378B0 /* UIKit.framework */; };
+		4899269E19D1CB4F00D378B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4899269C19D1CB4F00D378B0 /* InfoPlist.strings */; };
+		489926A019D1CB4F00D378B0 /* TextEditTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4899269F19D1CB4F00D378B0 /* TextEditTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4899269719D1CB4F00D378B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4899266619D1CB4E00D378B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4899266D19D1CB4E00D378B0;
+			remoteInfo = TextEdit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4899266E19D1CB4E00D378B0 /* TextEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4899267119D1CB4E00D378B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4899267319D1CB4E00D378B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4899267519D1CB4E00D378B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4899267919D1CB4E00D378B0 /* TextEdit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextEdit-Info.plist"; sourceTree = "<group>"; };
+		4899267B19D1CB4E00D378B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4899267D19D1CB4E00D378B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4899267F19D1CB4E00D378B0 /* TextEdit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextEdit-Prefix.pch"; sourceTree = "<group>"; };
+		4899268019D1CB4E00D378B0 /* TXTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTAppDelegate.h; sourceTree = "<group>"; };
+		4899268119D1CB4E00D378B0 /* TXTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTAppDelegate.m; sourceTree = "<group>"; };
+		4899268419D1CB4E00D378B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4899268619D1CB4E00D378B0 /* TXTMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTMainViewController.h; sourceTree = "<group>"; };
+		4899268719D1CB4F00D378B0 /* TXTMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTMainViewController.m; sourceTree = "<group>"; };
+		4899268919D1CB4F00D378B0 /* TXTFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTFlipsideViewController.h; sourceTree = "<group>"; };
+		4899268A19D1CB4F00D378B0 /* TXTFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTFlipsideViewController.m; sourceTree = "<group>"; };
+		4899268C19D1CB4F00D378B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4899269219D1CB4F00D378B0 /* TextEditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextEditTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4899269319D1CB4F00D378B0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4899269B19D1CB4F00D378B0 /* TextEditTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextEditTests-Info.plist"; sourceTree = "<group>"; };
+		4899269D19D1CB4F00D378B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4899269F19D1CB4F00D378B0 /* TextEditTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextEditTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4899266B19D1CB4E00D378B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4899267419D1CB4E00D378B0 /* CoreGraphics.framework in Frameworks */,
+				4899267619D1CB4E00D378B0 /* UIKit.framework in Frameworks */,
+				4899267219D1CB4E00D378B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4899268F19D1CB4F00D378B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4899269419D1CB4F00D378B0 /* XCTest.framework in Frameworks */,
+				4899269619D1CB4F00D378B0 /* UIKit.framework in Frameworks */,
+				4899269519D1CB4F00D378B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4899266519D1CB4E00D378B0 = {
+			isa = PBXGroup;
+			children = (
+				4899267719D1CB4E00D378B0 /* TextEdit */,
+				4899269919D1CB4F00D378B0 /* TextEditTests */,
+				4899267019D1CB4E00D378B0 /* Frameworks */,
+				4899266F19D1CB4E00D378B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4899266F19D1CB4E00D378B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4899266E19D1CB4E00D378B0 /* TextEdit.app */,
+				4899269219D1CB4F00D378B0 /* TextEditTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4899267019D1CB4E00D378B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4899267119D1CB4E00D378B0 /* Foundation.framework */,
+				4899267319D1CB4E00D378B0 /* CoreGraphics.framework */,
+				4899267519D1CB4E00D378B0 /* UIKit.framework */,
+				4899269319D1CB4F00D378B0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4899267719D1CB4E00D378B0 /* TextEdit */ = {
+			isa = PBXGroup;
+			children = (
+				489926A919D1CB7B00D378B0 /* App Delegate */,
+				489926AA19D1CBAE00D378B0 /* Main View */,
+				489926AC19D1CBDC00D378B0 /* Flipside View */,
+				4899267819D1CB4E00D378B0 /* Supporting Files */,
+				4899268319D1CB4E00D378B0 /* Main.storyboard */,
+				4899268C19D1CB4F00D378B0 /* Images.xcassets */,
+			);
+			path = TextEdit;
+			sourceTree = "<group>";
+		};
+		4899267819D1CB4E00D378B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4899267919D1CB4E00D378B0 /* TextEdit-Info.plist */,
+				4899267A19D1CB4E00D378B0 /* InfoPlist.strings */,
+				4899267D19D1CB4E00D378B0 /* main.m */,
+				4899267F19D1CB4E00D378B0 /* TextEdit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4899269919D1CB4F00D378B0 /* TextEditTests */ = {
+			isa = PBXGroup;
+			children = (
+				4899269F19D1CB4F00D378B0 /* TextEditTests.m */,
+				4899269A19D1CB4F00D378B0 /* Supporting Files */,
+			);
+			path = TextEditTests;
+			sourceTree = "<group>";
+		};
+		4899269A19D1CB4F00D378B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4899269B19D1CB4F00D378B0 /* TextEditTests-Info.plist */,
+				4899269C19D1CB4F00D378B0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		489926A919D1CB7B00D378B0 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4899268019D1CB4E00D378B0 /* TXTAppDelegate.h */,
+				4899268119D1CB4E00D378B0 /* TXTAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		489926AA19D1CBAE00D378B0 /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				4899268619D1CB4E00D378B0 /* TXTMainViewController.h */,
+				4899268719D1CB4F00D378B0 /* TXTMainViewController.m */,
+			);
+			name = "Main View";
+			sourceTree = "<group>";
+		};
+		489926AC19D1CBDC00D378B0 /* Flipside View */ = {
+			isa = PBXGroup;
+			children = (
+				4899268919D1CB4F00D378B0 /* TXTFlipsideViewController.h */,
+				4899268A19D1CB4F00D378B0 /* TXTFlipsideViewController.m */,
+			);
+			name = "Flipside View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4899266D19D1CB4E00D378B0 /* TextEdit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489926A319D1CB4F00D378B0 /* Build configuration list for PBXNativeTarget "TextEdit" */;
+			buildPhases = (
+				4899266A19D1CB4E00D378B0 /* Sources */,
+				4899266B19D1CB4E00D378B0 /* Frameworks */,
+				4899266C19D1CB4E00D378B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextEdit;
+			productName = TextEdit;
+			productReference = 4899266E19D1CB4E00D378B0 /* TextEdit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4899269119D1CB4F00D378B0 /* TextEditTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489926A619D1CB4F00D378B0 /* Build configuration list for PBXNativeTarget "TextEditTests" */;
+			buildPhases = (
+				4899268E19D1CB4F00D378B0 /* Sources */,
+				4899268F19D1CB4F00D378B0 /* Frameworks */,
+				4899269019D1CB4F00D378B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4899269819D1CB4F00D378B0 /* PBXTargetDependency */,
+			);
+			name = TextEditTests;
+			productName = TextEditTests;
+			productReference = 4899269219D1CB4F00D378B0 /* TextEditTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4899266619D1CB4E00D378B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TXT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Robert Irwin";
+				TargetAttributes = {
+					4899269119D1CB4F00D378B0 = {
+						TestTargetID = 4899266D19D1CB4E00D378B0;
+					};
+				};
+			};
+			buildConfigurationList = 4899266919D1CB4E00D378B0 /* Build configuration list for PBXProject "TextEdit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4899266519D1CB4E00D378B0;
+			productRefGroup = 4899266F19D1CB4E00D378B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4899266D19D1CB4E00D378B0 /* TextEdit */,
+				4899269119D1CB4F00D378B0 /* TextEditTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4899266C19D1CB4E00D378B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4899268D19D1CB4F00D378B0 /* Images.xcassets in Resources */,
+				4899267C19D1CB4E00D378B0 /* InfoPlist.strings in Resources */,
+				4899268519D1CB4E00D378B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4899269019D1CB4F00D378B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4899269E19D1CB4F00D378B0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4899266A19D1CB4E00D378B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4899267E19D1CB4E00D378B0 /* main.m in Sources */,
+				4899268B19D1CB4F00D378B0 /* TXTFlipsideViewController.m in Sources */,
+				4899268819D1CB4F00D378B0 /* TXTMainViewController.m in Sources */,
+				4899268219D1CB4E00D378B0 /* TXTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4899268E19D1CB4F00D378B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489926A019D1CB4F00D378B0 /* TextEditTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4899269819D1CB4F00D378B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4899266D19D1CB4E00D378B0 /* TextEdit */;
+			targetProxy = 4899269719D1CB4F00D378B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4899267A19D1CB4E00D378B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4899267B19D1CB4E00D378B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4899268319D1CB4E00D378B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4899268419D1CB4E00D378B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4899269C19D1CB4F00D378B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4899269D19D1CB4F00D378B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		489926A119D1CB4F00D378B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		489926A219D1CB4F00D378B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		489926A419D1CB4F00D378B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextEdit/TextEdit-Prefix.pch";
+				INFOPLIST_FILE = "TextEdit/TextEdit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		489926A519D1CB4F00D378B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextEdit/TextEdit-Prefix.pch";
+				INFOPLIST_FILE = "TextEdit/TextEdit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		489926A719D1CB4F00D378B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextEdit.app/TextEdit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextEdit/TextEdit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TextEditTests/TextEditTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		489926A819D1CB4F00D378B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextEdit.app/TextEdit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextEdit/TextEdit-Prefix.pch";
+				INFOPLIST_FILE = "TextEditTests/TextEditTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4899266919D1CB4E00D378B0 /* Build configuration list for PBXProject "TextEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489926A119D1CB4F00D378B0 /* Debug */,
+				489926A219D1CB4F00D378B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		489926A319D1CB4F00D378B0 /* Build configuration list for PBXNativeTarget "TextEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489926A419D1CB4F00D378B0 /* Debug */,
+				489926A519D1CB4F00D378B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		489926A619D1CB4F00D378B0 /* Build configuration list for PBXNativeTarget "TextEditTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489926A719D1CB4F00D378B0 /* Debug */,
+				489926A819D1CB4F00D378B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4899266619D1CB4E00D378B0 /* Project object */;
+}
